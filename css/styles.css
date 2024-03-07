@@ -1,0 +1,126 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* color: #fff; */
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+@media screen and (max-width:992px) {
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+       font-size:  2.4rem;
+    }
+    /* h3{
+
+    } */
+    .title-img{
+        position: static !important;
+        width: 30% !important;
+    }
+}
+.image-container{
+    text-align: center;
+    padding-top: 2rem;
+}
+.title-img{
+
+    /* filter: drop-shadow(0 8px 6px -6px black); */
+    border-radius: 3.5rem;
+    box-shadow:7px 10px 50px -7px black;
+    position: absolute;
+    width: 20%;
+    right: 22%;
+    /* top: 18%; */
+}
+img{
+    /* width: 60%; */
+    transform: rotate(20deg);
+    /* overflow: hidden; */
+}
+/* Features section */
+#features{
+    position: relative;
+    z-index: 1;
+    /* top: 70%; */
+    background-color: #fff;
+}
+
+
+.feature-icon{
+    color: #ef8172;
+    padding: 2rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* //TEStimonials */
+
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-div .testimonial-image{
+    width: 10% ;
+    padding: 2% 1% !important;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+
+/* //Press Section */
+#press{
+    background-color: #ef8172;
+}
+.press-image{
+    width: 20%;
+    padding: 0 2%;
+    transform: rotate(0deg);
+}
+
+/* Pricing */
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+}
+/* footer */
+#footer span{
+    color: #0eafec;
+    /* color:#8fe2f9; */
+    font-weight: bold;
+}
+.footer-icons{
+    font-size: 1.8rem;
+    transition: .1s ease-out;
+}
+.footer-icons:hover{
+    cursor: pointer;
+    transform: translateY(-1%);
+}
